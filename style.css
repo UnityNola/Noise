@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  color: darkolivegreen; /*#556B2F, #452f6b, #6b3a2f*/
+  font-family: "Lucida Handwriting", serif;
+  text-shadow:2px 1px black;
+}
+div.menuSelection{
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+}
+/*make frames?*/
+div.menu{
+  display: block;
+  width: 390px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  }
+a{
+  color: black;
+  /*make links close to header*/
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: darkolivegreen;
+  text-decoration: underline;
+  /*make border appear*/
+}
+a:active{
+  color: red;
+}
+div.main{
+  height: 500px;
+  border-bottom: 2px double darkolivegreen;
+}
+/*add a section abover with a double bottom border*/
+div.section{
+  width: 500px;
+  height: 450px;
+  padding: 5px;
+  margin: 15px auto;
+  box-sizing: border-box;
+  border: 4px double darkolivegreen;
+}
+h3{
+  color: black;
+  font-family: Papyrus, Fantasy;
+}
+/*#556B2F, #452f6b, #6b3a2f*/
+div.picFrame{
+  pading: 10px;
+  background-color: grey;
+}
+div.picDescription{
+  padding: 10px;
+  background-color: grey;
+}
+img {
+  display: block;
+  width: 300px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
